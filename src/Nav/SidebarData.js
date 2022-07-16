@@ -1,4 +1,4 @@
-import React from "react";
+
 
 
 
@@ -11,7 +11,7 @@ export const SidebarData = [
     },
     {
         title: 'About-Us',
-        path: '/about-us',
+        path: '/about',
         cName: 'nav-text'
     },
     {
@@ -21,17 +21,17 @@ export const SidebarData = [
     },
     {
         title: 'News & Updates',
-        path: '/news & updates',
+        path: '/news/updates',
         cName: 'nav-text'
     },
     {
         title: 'Upcoming Events',
-        path: '/upcoming events',
+        path: '/upcoming/events',
         cName: 'nav-text'
     },
     {
         title: 'Contact Us',
-        path: '/contact us',
+        path: '/contact-us',
         cName: 'nav-text'
     },
 

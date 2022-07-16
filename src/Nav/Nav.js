@@ -3,7 +3,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import "../Nav/Nav.css";
 import { SidebarData } from "../Nav/SidebarData";
 import { Link } from "react-router-dom";
-import background from "../img/banner.png";
+// import background from "../img/banner.png";
 import logo from "../img/logo.png";
 
 function Nav() {
@@ -11,15 +11,7 @@ function Nav() {
   const showSidebar = () => setSidebar(!sidebar);
   return (
     <>
-      <div
-        className="header"
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundRepeat: "no-repeat",
-          height: "100vh",
-          backgroundSize: "cover",
-        }}
-      >
+      <div>
         <div className="logo">
           <img src={logo} alt="logo" className="logo-img" />
         </div>

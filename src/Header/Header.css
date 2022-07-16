@@ -1,0 +1,29 @@
+.header {
+    height: 100vh;
+    background: orange;
+  }
+  .header.Home {
+    background: grey
+  }
+  .header.about {
+    background-image: 
+  url("../img/banner.png");
+  background-size: "cover";
+  background-repeat:no-repeat; 
+  background-position: center center;
+  }
+  .header.events {
+    background: yellow
+  }
+
+  .header.news {
+    background: pink
+  }
+
+  .header.upcomig {
+    background: green
+  }
+
+  .header.contact-us {
+    background: blue
+  }
