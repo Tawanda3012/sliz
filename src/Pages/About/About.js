@@ -1,20 +1,24 @@
-import React from 'react'
-import "../About/About.css"
-
+import React from "react";
+import "../About/About.css";
 
 function About() {
   return (
-    <div className='a' >
-      <div className="col-md-4">
-        <p>love</p>
-         </div>
-      <div className="col-md-4">
-        <p>kind</p>      </div>
-      <div className="col-md-4">
-        <p>peace</p>
+    <div>
+      <div className="abou">
+        <div className="about-header">
+          <div className="about-header-text">
+           <h1>About us</h1>
+          </div>
+          <div className="about-icon">
+            <i></i>
+            <h6>Scroll Down</h6>
+          </div>
+        </div>
       </div>
-       </div>
-  )
+      <div className="line"></div>
+      <div className="line2"></div>
+    </div>
+  );
 }
 
-export default About
+export default About;

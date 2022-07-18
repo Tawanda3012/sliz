@@ -1,5 +1,11 @@
-ol, ul {
+/* ol, ul {
 	list-style: none;
+} */
+*{
+  padding: 0;
+  /* overflow-x: hidden; */
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .App-header {

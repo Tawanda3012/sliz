@@ -1,29 +1,59 @@
 .header {
-    height: 100vh;
-    background: orange;
-  }
-  .header.Home {
-    background: grey
-  }
-  .header.about {
-    background-image: 
+  height: 100vh;
+  background-image: 
   url("../img/banner.png");
-  background-size: "cover";
+  background-size: cover;
   background-repeat:no-repeat; 
   background-position: center center;
   }
+  /* .header.Home {
+  
+  } */
+  .header.about {
+    height: 100vh;
+    background-image: 
+    url("../img/Banner\ img1.png");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    background-position: center center;
+   
+  }
   .header.events {
-    background: yellow
+    height: 100vh;
+    background-image: 
+    url("../img/Bannerimg3.png");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    background-position: center center;
+   
   }
 
   .header.news {
-    background: pink
+    height: 100vh;
+    background-image: 
+    url("../img/Bannerimg3.png");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    background-position: center center;
   }
 
   .header.upcomig {
-    background: green
+    height: 100vh;
+    background-image: 
+    url("../img/banner.png");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    background-position: center center;
+    opacity: 0.8; 
+   
   }
 
   .header.contact-us {
-    background: blue
+    height: 100vh;
+    background-image: 
+    url("../img/Bannerimg3.png");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    background-position: center center; 
+    opacity: 0.8;
   }
