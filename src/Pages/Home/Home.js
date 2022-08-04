@@ -220,6 +220,7 @@ function Home() {
       <section className="business">
         <div className="container">
         <Business/>
+       
         </div>
       </section>
       {/* <section className="newsimg">
