@@ -1,0 +1,108 @@
+.footer{
+    background-color: #000000;
+    height:750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    position: relative;
+}
+
+.footer h2{
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 57px;
+color: white;
+margin-top: 20px;
+position:relative;
+top:82px;
+}
+
+.footer input{
+    
+background: #353535;
+border: none;
+outline: none;
+width: 818px;
+height: 40px;
+padding: 0 30px;
+position:relative;
+top:92px;
+
+
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position:relative;
+    top:82px;
+}
+
+.futa-logo img{
+    padding-right:50px;
+    padding-top:4px;
+    padding-bottom:25px;
+    padding-left:46px;
+    display:inline-block;
+    transform:translatex(0px) translatey(0px);
+    height:129px;
+    position:relative;
+    left:10px;
+    top:16px;
+}
+
+.logo-lin1{
+   background-color: white;
+    height: 3px;
+    position:relative;
+    left:-22px;
+    width:270px;
+}
+
+.logo-lin2{
+    background-color: white;
+     height: 3px;
+     width: 300px;
+     position: relative;
+     left: 3%;
+ }
+
+ .footer-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+    top:103px;
+    
+ }
+
+ .location{
+    width: 270px;
+ }
+
+ .loc2{
+    position: relative;
+    left: 5%;
+ }
+
+ .loc3{
+    position: relative;
+    left: 5%;
+ }
+
+ .location p{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 400px;
+
+ }
+
+ /* .location h4{
+    text-align: center;
+ } */

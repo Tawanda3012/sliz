@@ -1,0 +1,43 @@
+.newz-img{
+    display: flex;
+    position:absolute;
+    top:-177px;
+   
+}
+
+.block1{
+   
+   
+    display: flex;
+    width: 450px;
+   
+}
+
+
+
+/* .newz-img1{
+   
+    width: 520px;
+    
+} */
+
+.newz-img1 img{
+    padding-bottom:27px;
+ height:448px;
+ width:529px !important;
+ object-fit: cover;
+}
+
+/* .newz-img1{
+    height: 50px;
+    width: 420px;
+}
+.newz-img2{
+    height: 50px;
+    width: 200px;
+}
+
+.block1{
+    display: flex;
+    
+} */

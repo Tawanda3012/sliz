@@ -13,8 +13,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router>
-      {/* <a href="tel:+1-555-555-1212">555-555-1212</a> */}
+      <Router>    
         <Header/>
         <Routes>
           <Route exact path="/" element={<Home/>} />
