@@ -104,6 +104,11 @@ top:92px;
 
  }
 
- /* .location h4{
-    text-align: center;
- } */
+ @media all and (max-width: 768.98px) { 
+   .footer input {
+      width:100%
+   }
+   
+ }
+
+ 

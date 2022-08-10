@@ -224,7 +224,7 @@
 
 .upz-img {
     width: 460px !important;
-    height: 150px;
+    height: 450px!important;
 }
 
 .upz-img img {
@@ -283,3 +283,31 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media all and (max-width: 768px) { 
+    .hom {
+        position: absolute;
+        top:50%;
+        left: 0;
+        
+    }
+    .hom .home-header .header-icon {
+       display: none;
+    }
+    .line{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
+    .menu-bars1{
+        left: 85%;
+    }
+    .home-header-text{
+        text-align: center;
+        left: 24%;
+    }
+   
+   }

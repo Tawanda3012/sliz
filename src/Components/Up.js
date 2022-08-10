@@ -77,7 +77,7 @@ function Up() {
                 <div className="image-card">
                 
                 <img className="img-fluid" src={`/img/${image.imageName}`} alt="" />
-                <div className="updates">
+                <div className="updats">
                     <div className="date-img">
                         <img src={`/img/${image.date}`} alt="" />
                     </div>

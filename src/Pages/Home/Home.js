@@ -53,7 +53,7 @@ function Home() {
             className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(1)}
           >
-            <h2>Our Mision</h2>
+            <h2>Our Services</h2>
           </div>
           <div
             className={toggleState === 2 ? "tabs tab2 active-tabs" : "tabs "}

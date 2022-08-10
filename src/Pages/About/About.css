@@ -235,4 +235,81 @@
 .aboutfooter{
     margin-top: 350px;
 }
-   
+
+@media all and (max-width: 768.98px) { 
+    .About-sliz .about-text {
+        left: 0;
+        top: 7px;
+        bottom: 10%;
+    }
+    .about-text p:nth-child(2){
+        padding-right: 0;
+    }
+    .about-text p:nth-child(3){
+        padding-right: 0;
+    }
+    .about-text p{
+        width: 100%;
+    
+    }
+    .home-abt-img {
+        margin-top: 50px;
+    }
+    .About-sliz .home-abt-img img{
+        width: 300px;
+        margin-left: 5%;
+    }
+    .footbal-img img{
+        width: 400px;
+        height: 200px;
+        
+    }
+    .nuz-upx{
+        flex-direction: column;
+    }
+    .news-updates .nuz-upx .nuz{
+        width: 100%;
+        left: 0;
+        height: 469px;
+    }
+    .rid{
+        left: 13%;
+    width: 73%;
+    }
+
+    .upz1{
+        width: 100%;
+       margin-left: 0;
+       margin-top: 30px;
+       /* flex-direction: column; */
+    }
+
+    .upz-text{
+        padding: 40px 0;
+    }
+
+    .fom-img img {
+        display:none
+    }
+    .fomu input{
+        width:100%
+    }
+    .fomu textarea {
+        width: 100%;
+    }
+    .partners{
+        flex-direction:column
+    }
+
+    .partner-img{
+        width: 307px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .block1{
+       display:none
+    }
+
+    
+   }

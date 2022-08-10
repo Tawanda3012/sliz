@@ -50,6 +50,17 @@
         background-color:#000000;
         color: white;
         text-decoration: none;
-        padding: 2px 50px;
+        padding-left:50px;
+        padding-top:6px;
+        padding-bottom:10px;
+        padding-right: 50px;
+       }
+
+
+       @media all and (max-width: 768px) { 
+        .About-sliz .about-text {
+            left: 0;
+            top: 71px;
+        }
        }
     
