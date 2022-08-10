@@ -1,6 +1,6 @@
 .hom {
     position: absolute;
-    top: 363px;
+    top:416px;
     left: 58px;
     /* width:1145px; */
 }
@@ -29,21 +29,26 @@
     align-items: flex-end;
     color: #ffffff;
     position: relative;
-    top:-6px;
+    
 }
+
+.hom .home-header .home-header-text{
+    position:relative;
+    top:-46px;
+   }
 
 .home-header-text h1 {
     margin-bottom: -2%;
     line-height: 33px;
     height: 88px;
     position: relative;
-    top: 16px;
+    top: 6px;
 
 }
 
 .hom .home-header .header-icon {
     position: relative;
-    top: -12px;
+    top:-59px;
     /* left:300px; */
     left: 650px;
 }

@@ -22,8 +22,15 @@
     top: 5%;
    }
 
-   .home-abt-img img{
+   /* .home-abt-img img{
     max-width: 116%!important;
+   } */
+   
+   .About-sliz .home-abt-img img{
+    display:inline-block;
+    transform:translatex(0px) translatey(0px) !important;
+    width:484px;
+    margin-right:0px;
    }
 
    .about-text p{

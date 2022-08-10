@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat:no-repeat; 
   background-position: center center;
+ 
   
   }
   /* .header.Home {
@@ -13,48 +14,55 @@
   .header.about {
     height: 100vh;
     background-image: 
-    url("../img/Banner\ img1.png");
+    url("../img/Banner img4.png");
     background-size: cover;
     background-repeat:no-repeat; 
     background-position: center center;
-   
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background-color:#1d1717;
+  
   }
   .header.events {
     height: 100vh;
     background-image: 
-    url("../img/Bannerimg3.png");
+    url("../img/Banner img1.png");
     background-size: cover;
     background-repeat:no-repeat; 
     background-position: center center;
+    background-color:#1d1717;
    
   }
 
   .header.news {
     height: 100vh;
     background-image: 
+    url("../img/Banner img4.png");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    background-position: center center;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background-color:#1d1717;
+  }
+
+  .header.upcoming {
+    height: 100vh;
+    background-image: 
     url("../img/Bannerimg3.png");
     background-size: cover;
     background-repeat:no-repeat; 
     background-position: center center;
-  }
-
-  .header.upcomig {
-    height: 100vh;
-    background-image: 
-    url("../img/banner.png");
-    background-size: cover;
-    background-repeat:no-repeat; 
-    background-position: center center;
-    opacity: 0.8; 
+    background-color:#1d1717;
    
   }
 
   .header.contact-us {
     height: 100vh;
     background-image: 
-    url("../img/Bannerimg3.png");
+    url("../img/Banner img2.png");
     background-size: cover;
     background-repeat:no-repeat; 
     background-position: center center; 
-    opacity: 0.8;
+    background-color:#1d1717;
   }

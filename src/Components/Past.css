@@ -1,0 +1,48 @@
+
+
+.past h2{
+    text-align: center;
+}
+
+.image-card a {
+    height: 200px;
+}
+
+
+.tag.active {
+	font-weight: bold!important;
+	border-bottom: 4px solid black!important;
+    opacity: 0.9!important;
+    width: 60px!important;
+}
+
+
+.tag {
+	outline: none;
+	border: none;
+	color: #000000;
+	margin: 0px 10px;
+	background-color: transparent;
+	cursor: pointer;
+	text-align: center;
+	padding: 20px 0px;
+   font-weight: 900;
+   text-align: center;
+   opacity: 0.5;
+   width: 50px;
+}
+
+.tags{
+    text-align: center;
+}
+
+.line4{
+    top: 67px;
+    opacity: 0.6;
+    position: relative;
+    border-bottom: 1px solid #000000;
+}
+
+.image-card {
+    margin-top: 40px;
+}

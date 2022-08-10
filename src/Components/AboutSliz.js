@@ -30,7 +30,7 @@ function AboutSliz() {
           </div>
           <div className="col-md-6">
             <div className="home-abt-img">
-              <img src={logo} className="img-fluid" alt="" />
+              <img src={logo} alt="" />
             </div>
           </div>
         </div>

@@ -1,0 +1,36 @@
+.eve .tags .null{
+    margin-right:113px;
+
+   }
+   
+   .eve .updates img{
+    width:40px;
+   }
+
+   .updates{
+    display: flex;
+    position:relative;
+    margin-top:10px;
+   }
+   
+   .date-text p:nth-child(1){
+    color: #000000;
+    font-weight: 900;
+   }
+
+   .date-text p:nth-child(2){
+
+    margin-top: -10%;
+    font-size: 14px;
+   }
+
+   .eve .updates .date-text{
+    position:relative;
+    left:20px;
+   }
+   
+   /* Paragraph */
+   .eve .updates p{
+    position:relative;
+    top:0px;
+   }
