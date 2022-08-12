@@ -29,12 +29,13 @@
     align-items: flex-end;
     color: #ffffff;
     position: relative;
+    top: 6px !important;;
     
 }
 
 .hom .home-header .home-header-text{
     position:relative;
-    top:-46px;
+    top: -4px !important;;
    }
 
 .home-header-text h1 {
@@ -48,7 +49,7 @@
 
 .hom .home-header .header-icon {
     position: relative;
-    top:-59px;
+    top: -10px !important;;
     /* left:300px; */
     left: 650px;
 }
@@ -308,6 +309,11 @@
     .home-header-text{
         text-align: center;
         left: 24%;
+    }
+
+    .fom-img{
+        width: 100%!important;
+        display: none;
     }
    
    }

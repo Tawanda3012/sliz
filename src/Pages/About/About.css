@@ -1,6 +1,6 @@
 .abou {
     position: absolute;
-    top:410px;
+    top: 457px!important;
    
 }
 
@@ -80,9 +80,8 @@
 
 .abou .about-header .about-icon {
     position: relative;
-    top:-59px;
-   
-    left:960px;
+    left: 925px !important;;
+ top: -47px !important;;
 }
 
 .about-header .about-icon svg {
@@ -237,6 +236,13 @@
 }
 
 @media all and (max-width: 768.98px) { 
+
+    .abou .about-header .about-header-text{
+        text-align: center;
+    }
+    .abou .about-header .about-icon {
+        display: none;
+    }
     .About-sliz .about-text {
         left: 0;
         top: 7px;
@@ -305,6 +311,9 @@
         width: 307px;
         height: 250px;
         margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .block1{

@@ -79,6 +79,17 @@
     position: absolute;
     left: 93%;
     top: 4%;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+   
+    
+  }
+
+  .menu-bars1:hover{
+   
+      transform: scale(2.0);
+      box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+    
   }
   
   
@@ -102,6 +113,15 @@
 
   .menu-bars{
     color: white;
-    margin-left:80%
+    margin-left:80%;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .menu-bars:hover{
+  
+      transform: scale(4.2);
+      box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+    
   }
   
