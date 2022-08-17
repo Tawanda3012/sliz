@@ -45,3 +45,9 @@
         top: -160px;
     }
    }
+
+   @media all and (min-width: 1250px) {
+    .events-header{
+        top: 260px;
+    }
+    }

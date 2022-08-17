@@ -201,13 +201,9 @@
    }
 
    .group1 img{
-    display:inline-block;
-    transform:translatex(0px) translatey(16px);
-    border-top-left-radius:59%;
-    border-top-right-radius:59%;
-    border-bottom-left-radius:59%;
-    border-bottom-right-radius:59%;
-   }
+    height: 124px;
+border-radius: 54%;
+}
 
    .bloc-tabz div:nth-child(2){
       margin-left: 20px;
@@ -409,4 +405,21 @@
     }
 
     
+   }
+
+
+   @media all and (min-width: 1250px) {
+    .abou{
+        top: 648px;
+    }
+    .group1{
+        height: 153px;
+    width: 151px;
+    padding: 12px;
+    }
+
+    .group1 img{
+        height: 124px;
+    border-radius: 54%;
+    }
    }

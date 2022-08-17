@@ -349,3 +349,12 @@
         }
 }
 
+@media all and (min-width: 1250px) {
+    .hom{
+        top: 648px;
+    }
+    .upz-img img{
+        height: 18vh;
+    }
+}
+

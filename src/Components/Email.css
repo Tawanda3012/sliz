@@ -41,3 +41,13 @@ border-radius: 5px;
     width: 150px;
     border-radius: 4px;
 }
+
+@media all and (min-width: 1250px) {
+    .fomu textarea{
+        width: 497px;
+        padding-left: 9px;
+    }
+    .fomu input{
+        padding-left: 9px;
+    }
+}

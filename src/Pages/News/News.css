@@ -84,7 +84,7 @@ border-bottom: 2px solid black;
 
 @media all and (max-width: 768px) { 
     .news-header-text{
-        left: 100px;
+        left: 124px;
         font-size: 30px;
         font-weight: 900;
         top: -160px;
@@ -103,3 +103,10 @@ border-bottom: 2px solid black;
     }
 }
 
+
+
+@media all and (min-width: 1250px) {
+   .news-header{
+    top: 320px;
+   }
+}
