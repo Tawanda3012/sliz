@@ -33,3 +33,15 @@
    .eventsfooter{
     margin-top: 100px;
    }
+
+   @media all and (max-width: 768px) { 
+    .events-icon{
+        display: none;
+    }
+    .events-header-text{
+        left: 100px;
+        font-size: 30px;
+        font-weight: 900;
+        top: -160px;
+    }
+   }

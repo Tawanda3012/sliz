@@ -82,3 +82,24 @@ border-bottom: 2px solid black;
 }
 
 
+@media all and (max-width: 768px) { 
+    .news-header-text{
+        left: 100px;
+        font-size: 30px;
+        font-weight: 900;
+        top: -160px;
+    }
+    .updates-img{
+        width: 364px;
+    }
+    .updates{
+        flex-direction: column;
+    }
+    .updates .recent-updates p{
+        width: 90%;
+    }
+    .local-news{
+        display: none;
+    }
+}
+

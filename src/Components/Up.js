@@ -26,48 +26,49 @@ const images = [
 ];
 
 function Up() {
-  const [tag, setTag] = useState("all");
+  const [tag3, setTag] = useState("all");
   const [filteredImages, setFilteredImages] = useState([]);
 
   useEffect(() => {
-    tag === "all"
+    tag3 === "all"
       ? setFilteredImages(images)
-      : setFilteredImages(images.filter((image) => image.tag === tag));
-  }, [tag]);
+      : setFilteredImages(images.filter((image) => image.tag === tag3));
+  }, [tag3]);
 
   return (
-    <div className="container">
+    <div className="container v">
          <div className="line4"></div>
       <div className="tags">
         <TagButton
           name="all"
-          tagActive={tag === "all" ? true : false}
+          tagActive={tag3 === "all" ? true : false}
           handleSetTag={setTag}
         />
         <TagButton
           name="August"
-          tagActive={tag === "August" ? true : false}
+          tagActive={tag3 === "August" ? true : false}
           handleSetTag={setTag}
         />
         <TagButton
           name="September"
-          tagActive={tag === "September" ? true : false}
+          tagActive={tag3 === "September" ? true : false}
           handleSetTag={setTag}
         />
         <TagButton
           name="October"
-          tagActive={tag === "October" ? true : false}
+          tagActive={tag3 === "October" ? true : false}
           handleSetTag={setTag}
         />
           <TagButton
           name="November"
-          tagActive={tag === "November" ? true : false}
+          tagActive={tag3 === "November" ? true : false}
           handleSetTag={setTag}
         />
           <TagButton
           name="December"
-          tagActive={tag === "December" ? true : false}
+          tagActive={tag3 === "December" ? true : false}
           handleSetTag={setTag}
+          
         />
       </div>
       <SRLWrapper>
@@ -79,7 +80,7 @@ function Up() {
                 <img className="img-fluid" src={`/img/${image.imageName}`} alt="" />
                 <div className="updats">
                     <div className="date-img">
-                        <img src={`/img/${image.date}`} alt="" />
+                        <img src={`/img/${image.date}`} className="img-fluid" alt="" />
                     </div>
                     <div className="date-text">
                         <p>{image.text}</p>
@@ -101,7 +102,7 @@ function Up() {
 const TagButton = ({ name, handleSetTag, tagActive }) => {
   return (
     <button
-      className={`tag ${tagActive ? "active" : null}`}
+      className={`tag3 ${tagActive ? "active" : null}`}
       onClick={() => handleSetTag(name)}
     >
       {name.toUpperCase()}

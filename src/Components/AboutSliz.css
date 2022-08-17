@@ -13,6 +13,10 @@
     top:41px;
    }
 
+   .About-sliz .about-text p{
+    font-size:16px;
+   }
+
    .home-abt-img{
   
     width:354px;
@@ -56,11 +60,18 @@
         padding-right: 50px;
        }
 
-
-       @media all and (max-width: 768px) { 
+ @media all and (max-width: 768px) { 
         .About-sliz .about-text {
             left: 0;
             top: 71px;
         }
        }
+      
+
+       @media all and (max-width: 830px) {  
+        .About-sliz .row{
+            flex-direction: column-reverse;
+        }
+        
+}
     

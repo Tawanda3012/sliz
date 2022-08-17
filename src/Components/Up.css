@@ -34,3 +34,55 @@
     position:relative;
     top:0px;
    }
+
+   .date-img{
+    width: 40px;
+    height: 40px;
+   }
+
+   .date-text{
+    margin-left: 5%;
+   }
+
+
+   .tag3 {
+	outline: none;
+	border: none;
+	color: #000000;
+	/* margin: 0px 10px; */
+	background-color: transparent;
+	cursor: pointer;
+	text-align: center;
+	padding: 20px 0px;
+   font-weight: 900;
+   text-align: center;
+   opacity: 0.5;
+   width: 50px;
+}
+
+/* .v .tags .null{
+    margin-right: 0;
+} */
+
+.tag3.active {
+	font-weight: bold!important;
+	border-bottom: 4px solid black!important;
+    opacity: 0.9!important;
+    width: 5%!important;
+    cursor: pointer;
+}
+
+
+
+   
+   @media all and (max-width: 768px) { 
+
+    .tags{
+        text-align: center;
+    }
+    .eve .tags .null{
+        font-size: 14px;
+        margin-right: 49px;
+
+    }
+   }

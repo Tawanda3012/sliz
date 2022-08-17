@@ -202,7 +202,7 @@ function Home() {
           <EventsGallery />
         </div>
       </section>
-      <section className="contact">
+      <section className="contact ">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
