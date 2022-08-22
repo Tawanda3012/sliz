@@ -9,7 +9,7 @@ function AboutSliz() {
       
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 ">
             <div className="about-text">
               <h2>About S.L.I.Z.</h2>
               <p>

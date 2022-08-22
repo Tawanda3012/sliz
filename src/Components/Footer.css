@@ -174,4 +174,18 @@ top:92px;
    }
  }
 
+
+ @media only screen and (max-width: 991.98px) and (min-width: 768px) {
+   .footer-contact{
+      flex-direction: row;
+
+   }
+
+   .location{
+      width: 244px;
+   }
+   .loc3{
+      top: 24%!important;
+   }
+ }
  

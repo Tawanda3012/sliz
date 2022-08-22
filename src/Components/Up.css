@@ -79,7 +79,7 @@
 
     .tags{
         text-align: center;
-        display: none;
+        /* display: none; */
     }
     .eve .tags .null{
         font-size: 14px;

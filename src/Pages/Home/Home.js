@@ -63,7 +63,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="tabs tabs-active">
+        <div className="tabs hom-cont tabs-active">
           <div className="content-tabs">
             <div
               className={
@@ -72,10 +72,10 @@ function Home() {
             >
               <div className="container">
                 <div className="row">
-                  <div className="col-md-8">
+                  <div className="col-md-6 col-lg-8">
                     <img src={Women} className="img-fluid" alt="women" />
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-6 col-lg-4">
                     <ul className="service-text">
                       <li>Sports Leadership Development</li>
                       <li>Programs & Network</li>
@@ -97,10 +97,10 @@ function Home() {
               {/* <h2>Our Values</h2> */}
               <div className="container">
                 <div className="row">
-                  <div className="col-md-8">
+                  <div className="col-md-6 col-lg-8">
                     <img src={Women2} className="img-fluid" alt="women" />
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-6 col-lg-4">
                     <ul className="service-text">
                       <li>Sports Leadership Development</li>
                       <li>Programs & Network</li>

@@ -349,3 +349,75 @@
     }
 }
 
+
+@media only screen and (max-width: 991.98px) and (min-width: 768px) {
+    .hom{
+        top: 86%;
+        left: 13px;
+
+    }
+    .hom .home-header .header-icon {
+        left: 309px;
+    }
+    .About-sliz .home-abt-img img{
+        width: auto!important;
+    }
+    .home-abt-img{
+        width: 100%!important;
+        left: -34px!important;
+        display: block!important;
+    }
+
+    .upz-img img{
+        height: 24vh;
+    }
+
+    .footbal-img{
+        margin-left: 0!important;
+    }
+    .footbal-img img{
+        width: 100%!important;
+    }
+    /* .hom-cont .row{
+      flex-direction: column;
+    } */
+    .service-text{
+        margin-top: 0!important;
+    }
+
+    .fom-img{
+        width: 319px!important;
+        margin-left: 24px;
+    }
+    .upz-img img{
+        height: 24vh!important;
+    }
+    .rid{
+        width: 34%;
+        top: 87%;
+        left: 57%;
+    }
+    .loc3{
+        left: 0!important;
+    }
+}
+
+@media only screen and (max-width: 1199.98px) and (min-width: 992px) {
+.hom{
+    top: 662px!important;
+}
+.hom .home-header .header-icon{
+    left: 590px;
+}
+.upz-img img{
+    height: 18vh!important;
+}
+.rid{
+    top: 89%!important;
+    left: 75%!important;
+    width: 17%!important;
+}
+.fomu textarea{
+    width: 497px!important;
+}
+}

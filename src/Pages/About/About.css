@@ -440,4 +440,36 @@ border-radius: 54%;
    }
 
 
+   @media only screen and (max-width: 991.98px) and (min-width: 768px) {
+    .abou{
+        top: 90%;
+    }
+    .abou .about-header .about-icon {
+        left: 579px;
+    }
+    .About-sliz .about-text {
+        left: 55%;
+    }
+    .news-updates .nuz-upx .nuz{
+        height: 629px;
+    }
+
+    .upz1{
+        height: 450px;
+    }
+    .upz .upz1 p{
+        padding: 0 28%;
+    }
+    .fom-img img{
+        display: block;
+    }
+
+    .partners{
+        flex-direction: row!important;
+    }
+    .partner-img{
+        height: 140px!important;
+    }
+   }
+
   
