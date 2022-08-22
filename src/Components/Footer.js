@@ -9,6 +9,8 @@ function Footer() {
       <Newz />
       <h2>Subscribe To Our Newsletter</h2>
       <input type="email" name="" placeholder="your email" id="" />
+      <input type="submit"  className="sen" value="submit" />
+
       <div className="footer-logo">
         <div className="logo-lin1"></div>
         <div className="futa-logo">

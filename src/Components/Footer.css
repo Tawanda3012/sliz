@@ -134,6 +134,15 @@ top:92px;
    color: white;
    font-weight: 900;
  }
+ .sen {
+   position: absolute!important;
+   top: 41%!important;
+   width: 8%!important;
+   color: white;
+   left: 70%!important;
+   height: 30px!important;
+   background-color: transparent!important;
+}
 
  @media all and (max-width: 768.98px) { 
    .footer input {

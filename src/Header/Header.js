@@ -14,6 +14,7 @@ import Nav from "../Nav/Nav"
     <div className={"header " + location}>
       <Nav />
       {/* <NavTwo/> */}
+      
     </div>
   );
 }

@@ -43,6 +43,7 @@ function Up() {
           name="all"
           tagActive={tag3 === "all" ? true : false}
           handleSetTag={setTag}
+          
         />
         <TagButton
           name="August"
@@ -53,6 +54,7 @@ function Up() {
           name="September"
           tagActive={tag3 === "September" ? true : false}
           handleSetTag={setTag}
+
         />
         <TagButton
           name="October"

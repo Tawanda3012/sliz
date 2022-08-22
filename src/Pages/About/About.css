@@ -306,10 +306,16 @@ border-radius: 54%;
     }
     .home-abt-img {
         margin-top: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 0;
     }
     .About-sliz .home-abt-img img{
         width: 300px;
-        margin-left: 5%;
+        margin-left: 0;
+        margin-bottom: 11%;
     }
     .footbal-img img{
         width: 400px;
@@ -372,10 +378,19 @@ border-radius: 54%;
        margin-left: 0;
        margin-top: 30px;
        /* flex-direction: column; */
+       display: flex;
+       flex-direction: column;
+       height: 380px;
+    }
+
+    .upz-img{
+        width: 100%!important;
+        margin-top: 3%;
     }
 
     .upz-text{
         padding: 40px 0;
+        text-align: center;
     }
 
     .fom-img img {
@@ -423,3 +438,6 @@ border-radius: 54%;
     border-radius: 54%;
     }
    }
+
+
+  

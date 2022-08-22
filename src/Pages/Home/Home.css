@@ -51,7 +51,7 @@
 .hom .home-header .header-icon {
     position: relative;
     top: -10px !important;;
-    /* left:300px; */
+  
     left: 650px;
 }
 
@@ -305,7 +305,7 @@
     .hom {
         position: absolute;
         top:50%;
-        left: 0;
+        left: 18%;
         
     }
     .hom .home-header .header-icon {
@@ -322,7 +322,7 @@
     }
     .home-header-text{
         text-align: center;
-        left: 24%;
+        left: 0;
     }
 
     .fom-img{
@@ -338,16 +338,7 @@
    
    }
 
-    @media all and (max-width: 830px) {  
-        .hom .home-header .header-icon{
-            left: 0;
-        }
-        .fom-img{
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-}
+ 
 
 @media all and (min-width: 1250px) {
     .hom{
