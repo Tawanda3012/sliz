@@ -111,6 +111,31 @@ border-bottom: 2px solid black;
    }
 }
 
+@media only screen and (max-width: 991.98px) and (min-width: 768px) {
+    .updates{
+        flex-direction: column;
+    }
+    .local-news{
+        width: 765px!important;
+        left: 25px!important;
+    }
+}
+
+@media only screen and (max-width: 1024.98px) and (min-width: 992px) {
+    .updates{
+        flex-direction: column;
+    }
+    .local-news{
+        width: 765px!important;
+        left: 25px!important;
+    }
+    .updates-text{
+        margin-right: 30px;
+    }
+    .updates-img{
+        width: 100%!important;
+    }
+}
 
 
  

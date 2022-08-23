@@ -442,18 +442,54 @@ border-radius: 54%;
 
    @media only screen and (max-width: 991.98px) and (min-width: 768px) {
     .abou{
-        top: 90%;
+        top: 90%!important;
     }
     .abou .about-header .about-icon {
-        left: 579px;
+        left: 579px!important;
     }
     .About-sliz .about-text {
         left: 37%;
         text-align: center;
     }
+    .About-sliz .about-text h2{
+        margin-left: 31%;
+    }
+    .about-text .link{
+        margin-left: 31%;
+    }
+    .About-sliz .about-abt-img img{
+        width: 695px!important;
+    }
+
+    .scene .row{
+        flex-direction: column-reverse;
+    }
+    .scene .tabz-active{
+        left: 0!important;
+    }
+    .bloc-tabz{
+        margin-left: 0!important;
+    }
+    .scene .tabz{
+        text-align: center;
+    }
+    .scene-text .linky{
+        margin-left: 26%!important;
+    }
+    .p{
+        height: 109px!important;
+    width: 102px!important;
+    }
     .news-updates .nuz-upx .nuz{
         height: 629px;
+        text-align: center;
     }
+    .nuz .nu-things p {
+        width: 100%!important;
+        padding: 0!important;
+        top: 94px!important;
+    }
+
 
     .upz1{
         height: 203px;
@@ -473,4 +509,12 @@ border-radius: 54%;
     }
    }
 
-  
+   @media only screen and (max-width: 1024.98px) and (min-width: 992px) {
+    .abou{
+        top: 701px!important;
+    }
+    .abou .about-header .about-icon{
+        left: 758px !important;
+    }
+
+}

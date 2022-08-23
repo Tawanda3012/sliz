@@ -184,8 +184,12 @@ top:92px;
    .location{
       width: 244px;
    }
-   .loc3{
-      top: 24%!important;
+   .sen{
+      width: 20%!important;
+      left: 77%!important;
    }
+   /* .loc3{
+      top: 24%!important;
+   } */
  }
  

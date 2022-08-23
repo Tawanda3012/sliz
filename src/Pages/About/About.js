@@ -69,7 +69,7 @@ function About() {
       <section className="scene container">
         <h2>Sports (SCIENCE & MANAGEMENT) Mentors</h2>
         <div className="row ">
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-4">
             <div className="tabz tabz-active">
               <div className="content-tabs">
                 <div
@@ -138,7 +138,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-6 col-lg-8">
             <div className="sport-scene">
               <div className="bloc-tabz">
                 <div

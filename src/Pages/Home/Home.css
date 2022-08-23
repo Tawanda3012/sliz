@@ -393,24 +393,32 @@
         height: 17vh!important;
     }
     .rid{
-        width: 34%;
-        top: 87%;
-        left: 57%;
+        width: 84%;
+        top: 86%;
+        left: 8%;
+        padding: 13px!important;
     }
     .loc3{
-        left: 0!important;
+        left: 5!important;
     }
 }
 
-@media only screen and (max-width: 1199.98px) and (min-width: 992px) {
+@media only screen and (max-width: 1024.98px) and (min-width: 992px) {
 .hom{
-    top: 662px!important;
+    top: 664px!important;
 }
 .hom .home-header .header-icon{
-    left: 590px;
+    left: 463px;
 }
 .upz-img img{
     height: 18vh!important;
+}
+
+.footbal-img img {
+    width: 100%!important;
+}
+.fom-img{
+    width: 350px!important;
 }
 .rid{
     top: 89%!important;

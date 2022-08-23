@@ -90,3 +90,17 @@
     left: 907px;
  }
 }
+
+@media only screen and (max-width: 991.98px) and (min-width: 768px) {
+  .con-icon {
+    left: 538px!important;
+  }
+
+}
+
+
+@media only screen and (max-width: 1024.98px) and (min-width: 992px) {
+  .con-icon {
+    left: 707px!important;
+  }
+}
