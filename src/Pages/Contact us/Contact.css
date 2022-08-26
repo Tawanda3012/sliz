@@ -105,9 +105,20 @@
   }
 }
 
+@media only screen and (max-width: 830px) and (min-width: 576px) {
+  .abou-con{
+      left: 0!important;
+      top: 87%!important;
+
+  }
+  .con-icon {
+      left: 490px!important;
+  }
+}
+
 @media only screen and (min-width: 1440px) {
   .con-icon {
-    left: 1033px!important;
+    left: 1075px!important;
 }
 .cont-img{
   margin-bottom: 13%!important;

@@ -8,7 +8,7 @@ import icon1 from "../img/ci_phone.png"
 function Contact() {
   return (
     <div>
-      <div className="abou">
+      <div className="abou abou-con">
         <div className="news-header">
           <div className="news-header-text">
             <h1>Contact Us</h1>

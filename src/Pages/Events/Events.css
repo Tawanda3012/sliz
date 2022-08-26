@@ -62,6 +62,20 @@
         }
     }
 
+    @media only screen and (max-width: 830px) and (min-width: 576px) {
+        .abou-eve{
+            left: 0!important;
+            top: 87%!important;
+
+        }
+        .about-line2{
+            display: block;
+        }
+        .events-icon {
+            left: 461px!important;
+        }
+    }
+
     @media only screen and (max-width: 1024.98px) and (min-width: 992px) {
         .events-icon{
             left: 673px !important;
@@ -70,6 +84,6 @@
 
     @media only screen and (min-width: 1440px) {
         .events-icon{
-            left: 1033px!important;
+            left: 971px!important;
         }
     }

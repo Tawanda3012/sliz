@@ -6,7 +6,7 @@ import Footer from "../../Components/Footer"
 function News() {
   return (
     <div>
-      <div className="abou">
+      <div className="abou abou-news">
         <div className="news-header">
           <div className="news-header-text">
             <h1>News & Updates</h1>

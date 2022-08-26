@@ -9,7 +9,7 @@ import Footer from "../../Components/Footer"
 function Events() {
   return (
     <div>
-       <div className="abou">
+       <div className="abou abou-eve">
         <div className="events-header">
           <div className="events-header-text">
             <h1>Events Gallery</h1>

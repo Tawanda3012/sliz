@@ -7,7 +7,7 @@ import Footer from "../../Components/Footer"
 function Upcoming() {
   return (
     <div>
-       <div className="abou">
+       <div className="abou abou-up">
         <div className="news-header">
           <div className="news-header-text">
             <h1>Upcoming Events</h1>
