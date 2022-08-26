@@ -38,7 +38,7 @@ function Up() {
   return (
     <div className="container v">
          <div className="line4"></div>
-      <div className="tags">
+      <div className="tags tag-up">
         <TagButton
           name="all"
           tagActive={tag3 === "all" ? true : false}

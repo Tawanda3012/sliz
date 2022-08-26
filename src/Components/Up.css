@@ -90,4 +90,14 @@
         margin-right: 23px;
 
     }
+    .tag-up{
+        display: flex;
+        flex-direction: column;
+    }
+    .tag3.active{
+        width: 100%!important;
+    }
+    .line4{
+        display: none;
+    }
    }

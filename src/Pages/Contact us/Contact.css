@@ -39,6 +39,13 @@
     margin-left: 5%;
 }
 
+@media all and (max-width: 320px) {
+  .abou-up{
+    left: -21%!important;
+  }
+}
+
+
 @media all and (max-width: 768px) {
   .con-icon {
     display: none;
