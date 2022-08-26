@@ -72,7 +72,11 @@
     cursor: pointer;
 }
 
-
+@media all and (max-width: 320px) {
+    .eve .tags .null{
+        margin-right: 6px!important;
+    }
+}
 
    
    @media all and (max-width: 768px) { 
@@ -83,7 +87,7 @@
     }
     .eve .tags .null{
         font-size: 14px;
-        margin-right: 49px;
+        margin-right: 23px;
 
     }
    }

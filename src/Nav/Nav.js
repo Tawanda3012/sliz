@@ -12,9 +12,10 @@ function Nav() {
   return (
     <>
       <div>
-        <div className="logo">
+        <Link className="logo" to="/">
           <img src={logo} alt="logo" className="logo-img" />
-        </div>
+        </Link>
+
         <div className="menu-bars1" onClick={showSidebar}>
           <div className="one"></div>
           <div className="two"></div>
