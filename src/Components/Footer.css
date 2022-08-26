@@ -145,6 +145,7 @@ top:92px;
 }
 
  @media all and (max-width: 768.98px) { 
+ 
    .footer input {
       width:100%
    }
@@ -200,5 +201,30 @@ top:92px;
    /* .loc3{
       top: 24%!important;
    } */
+ }
+
+ @media only screen and (max-width: 830px) and (min-width: 576px) {
+   .location {
+      width: 226px!important;
+  }
+  .logo-lin1 {
+   display: block!important;
+   left: -43px!important;
+   width: 210px!important;
+}
+  .logo-lin2{
+   left: 7%!important;
+   display: block!important;
+   width: 210px!important;
+  }
+  .futa-logo img{
+   left: 113px!important;
+  }
+  .footer input {
+   width: 92%!important;
+}
+.futa-logo img{
+   left: -7px!important;
+}
  }
  

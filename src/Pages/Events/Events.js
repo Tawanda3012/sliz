@@ -14,7 +14,7 @@ function Events() {
           <div className="events-header-text">
             <h1>Events Gallery</h1>
           </div>
-          <div className="events-icon">
+          <div className="events-icon eve-icon">
             <BsMouse2Fill />
             <h6>Scroll Down</h6>
           </div>

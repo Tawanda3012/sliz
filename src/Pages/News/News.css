@@ -135,8 +135,18 @@ border-bottom: 2px solid black;
     .updates-img{
         width: 100%!important;
     }
+    .new-icon{
+        left: 630px !important;
+    }
 }
 
+@media only screen and (min-width: 1440px) {
+    .news-header{
+        
+    top: 254px!important;
 
+    }
+    
+}
  
 

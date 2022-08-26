@@ -10,9 +10,9 @@ function Upcoming() {
        <div className="abou">
         <div className="news-header">
           <div className="news-header-text">
-            <h1>News & Updates</h1>
+            <h1>Upcoming Events</h1>
           </div>
-          <div className="events-icon">
+          <div className="events-icon up-icon">
             <BsMouse2Fill />
             <h6>Scroll Down</h6>
           </div>

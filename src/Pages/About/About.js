@@ -11,7 +11,7 @@ function About() {
   };
   return (
     <div>
-      <div className="abou">
+      <div className="abou abou-hed">
         <div className="about-header">
           <div className="about-header-text">
             <h1>About us</h1>

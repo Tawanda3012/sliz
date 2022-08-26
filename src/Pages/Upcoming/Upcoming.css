@@ -6,3 +6,8 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 1024.98px) and (min-width: 992px) {
+    .up-icon{
+        left: 623px !important;
+    }
+}

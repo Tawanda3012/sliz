@@ -11,7 +11,7 @@ function News() {
           <div className="news-header-text">
             <h1>News & Updates</h1>
           </div>
-          <div className="events-icon">
+          <div className="events-icon new-icon">
             <BsMouse2Fill />
             <h6>Scroll Down</h6>
           </div>

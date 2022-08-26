@@ -14,11 +14,15 @@
     left: 30px;
    }
 
-.events-icon{
+   .eve-icon{
+    left: 825px!important
+   }
+
+/* .events-icon{
     position:relative;
     left: 837px !important;;
  top:-49px;
-   }
+   } */
 
    .events-icon svg{
     position: relative;
@@ -60,6 +64,12 @@
 
     @media only screen and (max-width: 1024.98px) and (min-width: 992px) {
         .events-icon{
-            left: 645px !important;
+            left: 673px !important;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        .events-icon{
+            left: 1033px!important;
         }
     }

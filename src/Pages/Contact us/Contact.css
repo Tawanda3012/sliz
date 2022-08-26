@@ -104,3 +104,12 @@
     left: 707px!important;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  .con-icon {
+    left: 1033px!important;
+}
+.cont-img{
+  margin-bottom: 13%!important;
+}
+}
