@@ -22,7 +22,7 @@ top:82px;
 
 .footer input{
     
-background: #353535;
+/* background: #353535; */
 border: none;
 outline: none;
 width: 818px;
@@ -138,11 +138,17 @@ top:92px;
    position: absolute!important;
    top: 41%!important;
    width: 8%!important;
-   color: white;
+   /* color: white; */
    left: 70%!important;
    height: 30px!important;
    background-color: transparent!important;
+   border: none;
 }
+
+/* .sun{
+   color: white!important;
+} */
+
 @media all and (max-width: 320px) {
    .footer h2{
       text-align: center;

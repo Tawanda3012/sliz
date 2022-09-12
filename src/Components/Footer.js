@@ -1,16 +1,46 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Footer.css";
 import Newz from "./Newz";
 import { Link } from "react-router-dom";
+import  emailjs from "emailjs-com";
+
 
 function Footer() {
+ 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_qft8mng', 'template_96ddhl8', form.current, 'q5M97J95KKW2sin_Y')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+
+
+
+
+
   return (
     <div className="footer">
       <Newz />
       <h2>Subscribe To Our Newsletter</h2>
-      <input type="email" name="" placeholder="your email" id="" />
-      <input type="submit"  className="sen" value="submit" />
 
+
+
+         <form ref={form} onSubmit={sendEmail}>
+         <input type="email" placeholder="your email" name="user_email" id="" />
+    
+
+    
+    <input type="submit"  className="sen" value="submit" />
+
+         </form>
+      
       <div className="footer-logo">
         <div className="logo-lin1"></div>
         <div className="futa-logo">
