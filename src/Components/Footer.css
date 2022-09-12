@@ -163,8 +163,14 @@ top:92px;
  @media all and (max-width: 768.98px) { 
  
    .footer input {
-      width:100%
+      width: 38vh !important;
    }
+   .sen {
+      top: 32%!important;
+      width: 41%!important;
+      left: 42%!important;
+      padding: 0 92px!important;
+  }
    .footer{
       height: 1154px;
    }
