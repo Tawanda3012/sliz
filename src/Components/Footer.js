@@ -33,7 +33,7 @@ function Footer() {
 
 
          <form ref={form} onSubmit={sendEmail}>
-         <input type="email" placeholder="your email" name="user_email" id="" />
+         <input type="email" placeholder="your email" className="ema" name="user_email" id="" />
     
 
     

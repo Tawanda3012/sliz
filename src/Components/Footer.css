@@ -163,7 +163,7 @@ top:92px;
  @media all and (max-width: 768.98px) { 
  
    .footer input {
-      width: 38vh !important;
+      width: 38vh ;
    }
    .sen {
       top: 32%!important;
@@ -209,7 +209,7 @@ top:92px;
  @media only screen and (max-width: 830px) and (min-width: 576px) {
    .sen{
       top: 44%!important;
-      left: 42%!important;
+      left: 53%!important;
    }
    .loc3 {
       position: relative;
@@ -235,7 +235,7 @@ top:92px;
    }
    .sen{
       width: 20%!important;
-      left: 42%!important;
+      left: 42%;
    }
    /* .loc3{
       top: 24%!important;
@@ -259,8 +259,9 @@ top:92px;
   .futa-logo img{
    left: 113px!important;
   }
-  .footer input {
-   width: 92%!important;
+  .ema {
+   width: 165%!important;
+   left: -39%;
 }
 .futa-logo img{
    left: -7px!important;
@@ -273,3 +274,14 @@ top:92px;
   } 
  }
  
+
+ @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+   
+    .sen {
+        width: 31%!important;
+        left: 42%;
+    }
+  }
