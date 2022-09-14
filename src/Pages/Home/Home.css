@@ -323,7 +323,7 @@
     .hom {
         position: absolute;
         top:50%;
-        left: 18%;
+        left: 13.5%;
         
     }
     .hom .home-header .header-icon {
@@ -449,9 +449,7 @@
 }
 
 @media only screen and (max-width: 830px) and (min-width: 576px) {
-    .home-header-text h1{
-        color: red;
-    }
+   
     .hom{
         top: 80%;
     left: 6%;
@@ -461,7 +459,10 @@
     }
     .hom .home-header .header-icon{
         display: block;
-        left: 260px;
+        left: 120px;
+    }
+    .hom .home-header .home-header-text{
+        text-align: inherit;
     }
     .About-sliz .home-abt-img img{
         width: 559px!important;
@@ -556,11 +557,32 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2){
-    .hom{
-        background-color: green;
+    
+    .hom .home-header .header-icon{
+        left: 279px;
     }
     .sen {
         width: 31%!important;
         left: 42%;
     }
   }
+
+  /* @media only screen and (min-height: 844px)
+  {
+    .tabs {
+        margin-top: 16.5%;
+    }
+    .hom{
+        background-color: yellow;
+    }
+   } */
+
+   /* @media only screen and (min-height: 740px)
+{ 
+    .hom{
+        background-color: orange;
+    }
+ } */
+
+
+ 
