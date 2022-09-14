@@ -118,7 +118,7 @@ function Home() {
       </div>
       <section className="container football">
         <div className="footbal-img">
-          <img src={Football} alt="" />
+          <img src={Football} alt="football" />
         </div>
       </section>
       <section className="news-updates">
