@@ -12,7 +12,6 @@ import formIg from "../img/Rectangle 165.png"
 import EventsGallery from "../../Components/EventsGallery";
 import Email from "../../Components/Email";
 import Business from "../../Components/Business";
-import Newz from "../../Components/Newz";
 import Footer from "../../Components/Footer";
 
 

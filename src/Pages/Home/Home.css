@@ -2,7 +2,7 @@
     position: absolute;
     top:416px;
     left: 58px;
-    /* width:1145px; */
+   
 }
 
 .line {
@@ -360,7 +360,7 @@
 
 @media all and (min-width: 1250px) {
     .hom{
-        top: 648px;
+        top: 591px;
     }
     .upz-img img{
         height: 18vh;
