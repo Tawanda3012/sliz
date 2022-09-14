@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { SRLWrapper } from "simple-react-lightbox";
+
 import "./EventsGallery.css";
 
 const images = [
@@ -52,7 +52,7 @@ function EventsGallery() {
           handleSetTag={setTag}
         />
       </div>
-      <SRLWrapper>
+      
         <div className="row">
           {filteredImages.map((image) => (
             <div key={image.id} className=" col-md-3">
@@ -66,7 +66,7 @@ function EventsGallery() {
             </div>
           ))}
         </div>
-      </SRLWrapper>
+     
     </div>
   );
 }
