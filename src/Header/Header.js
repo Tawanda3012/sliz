@@ -13,7 +13,7 @@ import Nav from "../Nav/Nav"
   return (
     <div className={"header " + location}>
       <Nav />
-      {/* <NavTwo/> */}
+      
       
     </div>
   );
