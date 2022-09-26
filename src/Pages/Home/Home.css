@@ -342,6 +342,9 @@
         text-align: center;
         left: 0;
     }
+    .tabs {
+        margin-top: 16%;
+    }
 
     .fom-img{
         width: 100%!important;
