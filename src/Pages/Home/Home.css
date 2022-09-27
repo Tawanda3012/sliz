@@ -516,8 +516,11 @@
         left: 84px!important;
     }
     .hom .home-header .header-icon{
-        left: 774px!important;
+        left: 816px!important;
 
+    }
+    .tabs {
+        margin-top: 6%;
     }
     .line3{
         top: 128px!important;
@@ -562,7 +565,7 @@
   and (-webkit-min-device-pixel-ratio: 2){
     
     .hom .home-header .header-icon{
-        left: 279px;
+        left: 475px;
     }
     .sen {
         width: 31%!important;
