@@ -427,6 +427,7 @@
 @media only screen and (max-width: 1024.98px) and (min-width: 992px) {
 .hom{
     top: 590px!important;
+    left: 40px;
 }
 .hom .home-header .header-icon{
     left: 463px;
