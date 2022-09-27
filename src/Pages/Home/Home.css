@@ -463,7 +463,7 @@
     }
     .hom .home-header .header-icon{
         display: block;
-        left: 476px;
+        left: 58px;
     }
     .hom .home-header .home-header-text{
         text-align: inherit;
@@ -485,7 +485,7 @@
         margin-top: 6%!important;
     }
     .tabs {
-        margin-top: 6%;
+        margin-top: 9%!important;
     }
     .news-updates .nuz-upx .nuz{
         height: 690px!important;
