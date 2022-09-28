@@ -1,6 +1,6 @@
 .hom {
     position: absolute;
-    top:416px;
+    top: 370px !important;;
     left: 58px;
    
 }
@@ -513,7 +513,7 @@
 
 @media only screen and (min-width: 1440px) {
     .hom {
-        top: 574px!important;
+        top: 574px;
         left: 84px!important;
     }
     .hom .home-header .header-icon{
